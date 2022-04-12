@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../assets/imagenes/favicon.ico">
+        <link rel="stylesheet" href="./assets/imagenes/estilo.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/estilo.css"> 
+
+        <title>UNITENOS</title>
+    </head>
+
+    <body>
+        <header> 
+            <a href="../index.html"><img src="../assets/imagenes/logoGNR.png" alt="logoguns" width="400px"></a> 
+            <h1>GUNS & ROSES</h1>
+            <nav>
+                <ul>
+            
+                    <li><a href="historia.html">LA BANDA</a></li>
+                    <li><a href="discografia.html">DISCOGRAFIA</a>
+                    <ul>    
+                        <li><a href="videos.html">VIDEOS</a></li>
+
+                    </ul>
+                
+                    </li>
+                    <li><a href="contacto.html">UNITE A NOSOTROS</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+        <main class="form">
+            <p>
+                <fieldset>
+                    <h3>INGRESA TUS DATOS PARA UNIRTE</h3>
+
+                    <form action="">
+                        <div>
+                            <label for="nombre">NOMBRE</label>
+                            <input type="text" name="NOMBRE">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="apellido">APELLIDO</label>
+                            <input type="text" name="APELLIDO">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="email">TU MAIL*</label>
+                            <input type="email" name="EMAIL" required>
+                        </div>
+                        <br>
+    
+                        <div>
+                            <label for="genero"> GENERO</label><br>
+                            <input type="radio" name="genero" value="femenino"> FEMENINO
+                            <input type="radio" name="genero" value="masculino"> MASCULINO
+                            <input type="radio" name="genero" value=" no binario"> NO BINARIO
+                        </div>
+                        <br>
+                        <div>
+                            <label for="pais">NACIONALIDAD</label>
+                            <select name="pais" id="">
+                                <option value="arg">ARGENTINA</option>
+                                <option value="uru">URURUGUAY</option>
+                                <option value="bra">BRASIL</option>
+                                <option value="chi">CHILE</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div>
+                            <h3>INGRESAR</h3>   
+                            <label for="contraseña">ESCRIBE TU PASSWORD</label>
+                            <input type="password" name="contraseña">
+                        </div>
+                        <br>        
+
+                        <div>
+                            <label for="comentario">Dejanos un mesnsaje</label>
+                            <br> 
+                            <textarea name="comentarios" id="" cols="30" rows="10" placeholder="nos interesa tu comentario"></textarea>
+                            <br>
+                            <label for="terminos">Acepta terminos y condiciones</A:blank></label>
+                            <input type="checkbox" name="acepta" id="" value="1" required>
+
+                        </div>
+                        <br>
+                        <div>
+
+                        <input type="submit" value="ENVIAR DATOS">
+                        <input type="reset" value="BORRAR DATOS">
+                        </div>
+                        <br>
+                    </form>
+
+                </fieldset>
+            </p>
+        </main>
+    </body>
+
+</html>
